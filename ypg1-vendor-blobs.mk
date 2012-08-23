@@ -147,3 +147,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ypg1/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
     vendor/samsung/ypg1/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
     vendor/samsung/ypg1/proprietary/media/Disconnected.qmg:system/media/Disconnected.qmg
+
+# Prebuild app
+PRODUCT_COPY_FILES += \
+    vendor/samsung/ypg1/proprietary/app/RomManager.apk:system/app/RomManager.apk \
+    vendor/samsung/ypg1/proprietary/app/Term.apk:system/app/Term.apk
