@@ -60,8 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ypg1/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/samsung/ypg1/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/samsung/ypg1/proprietary/lib/libsensor_yamaha_test.so:system/lib/libsensor_yamaha_test.so \
-    vendor/samsung/ypg1/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so \
-    vendor/samsung/ypg1/proprietary/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so
+    vendor/samsung/ypg1/proprietary/lib/hw/copybit.s5pc110.so:system/lib/hw/copybit.s5pc110.so
 
 #
 # Bluetooth
