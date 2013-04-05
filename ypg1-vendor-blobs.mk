@@ -30,30 +30,26 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ypg1/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
     vendor/samsung/ypg1/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin
 
-# XXX: use /system/etc/wifi/bcm4329*.bin?
-#    vendor/samsung/ypg1/proprietary/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
-#    vendor/samsung/ypg1/proprietary/etc/wimaxfw.bin:system/etc/wimaxfw.bin \
-#    vendor/samsung/ypg1/proprietary/etc/wimaxloader.bin:system/etc/wimaxloader.bin
 
 
 #
 # Display (3D)
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ypg1/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
-    vendor/samsung/ypg1/proprietary/lib/egl/libEGL_POWERVR_SGX540_120.so:system/lib/egl/libEGL_POWERVR_SGX540_120.so \
+    vendor/samsung/ypg1/proprietary/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
+    vendor/samsung/ypg1/proprietary/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
     vendor/samsung/ypg1/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/samsung/ypg1/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-    vendor/samsung/ypg1/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
-    vendor/samsung/ypg1/proprietary/lib/libsrv_um.so:system/lib/libsrv_um.so \
-    vendor/samsung/ypg1/proprietary/lib/libsrv_init.so:system/lib/libsrv_init.so \
-    vendor/samsung/ypg1/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
-    vendor/samsung/ypg1/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
-    vendor/samsung/ypg1/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-    vendor/samsung/ypg1/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
-    vendor/samsung/ypg1/proprietary/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-    vendor/samsung/ypg1/proprietary/lib/libusc.so:system/lib/libusc.so \
-    vendor/samsung/ypg1/proprietary/lib/hw/gralloc.s5pc110.so:system/lib/hw/gralloc.s5pc110.so \
+    vendor/samsung/ypg1/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
+    vendor/samsung/ypg1/proprietary/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
+    vendor/samsung/ypg1/proprietary/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/samsung/ypg1/proprietary/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/samsung/ypg1/proprietary/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/samsung/ypg1/proprietary/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/samsung/ypg1/proprietary/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/samsung/ypg1/proprietary/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/samsung/ypg1/proprietary/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/samsung/ypg1/proprietary/lib/libusc.so:system/vendor/lib/libusc.so \
+    vendor/samsung/ypg1/proprietary/lib/hw/gralloc.s5pc110.so:system/vendor/lib/hw/gralloc.s5pc110.so \
     vendor/samsung/ypg1/proprietary/vendor/firmware/samsung_mfc_fw.bin:system/vendor/firmware/samsung_mfc_fw.bin
 
 #
@@ -78,24 +74,18 @@ PRODUCT_COPY_FILES += \
 # Camera
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ypg1/proprietary/bin/tvoutserver:system/bin/tvoutserver \
     vendor/samsung/ypg1/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/ypg1/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
     vendor/samsung/ypg1/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/ypg1/proprietary/lib/libPanoraMax1.so:system/lib/libPanoraMax1.so \
     vendor/samsung/ypg1/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/ypg1/proprietary/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so \
-    vendor/samsung/ypg1/proprietary/lib/libtvout.so:system/lib/libtvout.so \
-    vendor/samsung/ypg1/proprietary/lib/libtvout_jni.so:system/lib/libtvout_jni.so \
-    vendor/samsung/ypg1/proprietary/lib/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
-    vendor/samsung/ypg1/proprietary/lib/libtvoutfimc.so:system/lib/libtvoutfimc.so \
-    vendor/samsung/ypg1/proprietary/lib/libtvouthdmi.so:system/lib/libtvouthdmi.so \
-    vendor/samsung/ypg1/proprietary/lib/libtvoutservice.so:system/lib/libtvoutservice.so \
     vendor/samsung/ypg1/proprietary/firmware/CE147F00.bin:system/firmware/CE147F00.bin \
     vendor/samsung/ypg1/proprietary/firmware/CE147F01.bin:system/firmware/CE147F01.bin \
     vendor/samsung/ypg1/proprietary/firmware/CE147F02.bin:system/firmware/CE147F02.bin \
-    vendor/samsung/ypg1/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin
-
+    vendor/samsung/ypg1/proprietary/firmware/CE147F03.bin:system/firmware/CE147F03.bin \
+    vendor/samsung/ypg1/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
+    vendor/samsung/ypg1/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv 
 
 #
 # RIL
