@@ -25,12 +25,7 @@ PRODUCT_COPY_FILES += \
 # Wifi
 #
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ypg1/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/ypg1/proprietary/etc/wifi/wifi.conf:system/etc/wifi/wifi.conf \
-    vendor/samsung/ypg1/proprietary/etc/wifi/bcm4329_sta.bin:system/etc/wifi/bcm4329_sta.bin \
-    vendor/samsung/ypg1/proprietary/etc/wifi/bcm4329_aps.bin:system/etc/wifi/bcm4329_aps.bin
-
-
+    vendor/samsung/ypg1/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt
 
 #
 # Display (3D)
